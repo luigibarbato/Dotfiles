@@ -1,0 +1,83 @@
+configuration {
+  modi: "drun,window";
+  width: 30;
+  font: "JetBrains Regular 14";
+  terminal: "kitty";
+  disable-history: false;
+  sidebar-mode: true;
+  tokenize: true;
+  show-icons: true;   
+  m: "-5";
+  line-margin: 4;
+  line-padding: 6;
+  separator-style: "none";
+  hide-scrollbar: false;
+  window-format: "{w} {c}";
+  display-drun: "Apps";
+  display-run: "Run";
+  display-window: "Windows";
+}
+
+	 filebrowser {
+      directory: "/ArchDisk";
+      sorting-method: "name";
+      directories-first: true;
+   }
+
+* {
+  /*bg: #0F1212;*/
+  bg: #1d212a;
+  fg: #e3e3e3;
+  accent: #d89495;
+  button: #a7bdfb;
+  
+  background-color: @bg;
+  text-color: @fg;
+}
+
+window {
+  padding: 30px;
+  border-radius: 0px;
+  border:6px;
+  border-color:#272c38;
+}
+
+prompt, entry {
+  text-color: @fg;
+  padding: 15px;
+}
+
+
+entry {
+    border-radius : 0 4px 4px 0;
+    margin: 0 0 10px 0;
+}
+
+prompt {
+    background-color: @accent;
+    text-color: @bg;
+    border-radius: 4px 0 0 4px;
+    margin: 0 0 10px 0;
+}
+
+element {
+  border-radius: 2px;
+  padding: 16px 14px;
+}
+
+element selected {
+  background-color: @fg;
+  text-color: @bg;
+}
+
+button {
+    padding: 6px;
+    margin: 10px 0 0 0;
+}
+
+button selected {
+  background-color: @accent;
+  text-color: @bg;
+  border-radius: 2px;
+  padding: 4px;
+}

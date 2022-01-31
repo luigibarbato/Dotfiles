@@ -1,0 +1,97 @@
+#
+# ~/.bashrc
+#
+
+##############################################################
+#  					GENERAL                                  #
+##############################################################
+
+# If not running interactively, don't do anything
+[[ $- != *i* ]] && return
+
+[[ "$(whoami)" = "root" ]] && return
+
+[[ -z "$FUNCNEST" ]] && export FUNCNEST=100          # limits recursive functions, see 'man bash'
+
+## Use the up and down arrow keys for finding a command in history
+bind '"\e[A":history-search-backward'
+bind '"\e[B":history-search-forward'
+
+
+##############################################################
+#  					VARIABLES                                #
+##############################################################
+
+export EDITOR="micro"
+export DOCKER_BUILDKIT=1
+export STARSHIP_CONFIG=~/.config/starship/starship.toml
+export SIGHUP_WORKDIR="/home/luigi/dev/sighup"
+export FIP_WORKING_DIR="/home/luigi/dev/sighup/fip-dev-env"
+export GOPATH="$HOME/go"
+export PATH="$PATH:$GOPATH/bin"
+
+##############################################################
+#  					ALIASES                                  #
+##############################################################
+
+#--------------------#
+# 	General Alias 	 #
+#--------------------#
+
+alias m=micro
+alias k=kubectl
+alias work="cd $SIGHUP_WORKDIR"
+alias sfip="cd $FIP_WORKING_DIR"
+alias r=ranger
+alias ssh="kitty +kitten ssh"
+alias dots=chezmoi
+alias ls='ls --color=auto'
+alias ll='ls -lav --ignore=..'   # show long listing of all except ".."
+alias l='ls -lav --ignore=.?*'   # show long listing but no hidden dotfiles except "."
+
+#-----------------------#
+# 	Git Alias Commands  #
+#-----------------------#
+
+alias gc="git clone"
+alias gs="git status"
+alias ga="git add"
+alias gcm="git commit -m"
+alias gca="git commit -am"
+alias gb="git branch"
+alias gck="git checkout"
+alias gst="git stash"
+alias gpr="git pull --rebase"
+alias gl="git log --oneline --decorate --graph"
+alias glog="git log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --"
+alias glga="git log --graph --oneline --all --decorate"
+alias gb="git branch"
+alias gs="git show"
+alias gd="diff --color --color-words --abbrev"
+alias gps="git push"
+alias gpl="git pull"
+alias gi="ign = ls-files -o -i --exclude-standard"
+
+##############################################################
+#  					TOOLS                                    #
+##############################################################
+
+#-----------------------#
+# 	ASDF Setup          #
+#-----------------------#
+
+. /opt/asdf-vm/asdf.sh
+. /opt/asdf-vm/lib/utils.bash
+eval "$(asdf exec direnv hook bash)"
+
+#-----------------------#
+# 	Starship Setup      #
+#-----------------------#
+
+eval "$(starship init bash)" 
+
+#-----------------------#
+# 	Kitty SSH           #
+#-----------------------#
+
+if test -n "$KITTY_INSTALLATION_DIR" -a -e "$KITTY_INSTALLATION_DIR/shell-integration/bash/kitty.bash"; then source "$KITTY_INSTALLATION_DIR/shell-integration/bash/kitty.bash"; fi

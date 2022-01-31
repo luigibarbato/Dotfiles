@@ -1,0 +1,14 @@
+#!/bin/bash
+timestamp=$(date)
+temp="5500k"
+
+retval=$(redshift -x && redshift -O $temp 2>&1)
+
+echo $retval
+
+# if [ $retval -eq 0 ]; then
+    # notify-send "Redshift activated."
+    # echo "[$timestamp] Redshift activated with ${temp} temp value."
+# else
+    # echo "[$timestamp] Redshift not activated with error $retval"
+# fi

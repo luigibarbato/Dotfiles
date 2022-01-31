@@ -1,0 +1,115 @@
+[colors]
+	background = "#242933"
+
+[global]
+    ### Display ###
+
+    monitor = 0
+    follow = keyboard
+
+    width = (422, 444)
+    height = 422
+    origin = top-right
+    offset = 11x68
+   
+    indicate_hidden = yes
+    shrink = true
+    transparency = 0
+    separator_height = 2
+    horizontal_padding = 11
+    frame_width = 3
+
+    frame_color = "#2E3440"
+    separator_color = auto
+    sort = yes
+    idle_threshold = 120
+
+    ### Text ###
+    font = JetBrains Medium 10
+    line_height = 0
+
+    markup = full
+
+    # The format of the message.  Possible variables are:
+    #   %a  appname
+    #   %s  summary
+    #   %b  body
+    #   %i  iconname (including its path)
+    #   %I  iconname (without its path)
+    #   %p  progress value if set ([  0%] to [100%]) or nothing
+    #   %n  progress value if set without any extra characters
+    #   %%  Literal %
+    # Markup is allowed
+    format = "<b>%s %b</b>"
+    alignment = center
+    show_age_threshold = 60
+    word_wrap = true
+    ellipsize = middle
+    ignore_newline = false
+    stack_duplicates = true
+    hide_duplicate_count = true
+    show_indicators = true
+
+    ### Icons ###
+    icon_position = left
+    max_icon_size = 80
+    icon_path = /usr/share/icons/Papirus-Dark/48x48/status/:/usr/share/icons/Papirus-Dark/48x48/devices/:/home/luigi/.local/share/icons/Bubble-dark/apps/scalable
+
+    ### History ###
+    sticky_history = yes
+    history_length = 20
+
+    ### Misc/Advanced ###
+    dmenu = /usr/bin/kitty -e fzf:
+    browser = /usr/bin/firefox
+    always_run_script = false
+    title = Dunst
+    class = Dunst
+    force_xinerama = false
+
+[experimental]
+    per_monitor_dpi = false
+
+[log_notifs]
+    script = ~/.config/dunst/scripts/dunst_logger.sh
+
+[dunst_icon]
+    appname = dunst
+    new_icon = /home/luigi/.local/share/icons/Bubble-dark/apps/scalable/bell.svg
+
+[notify_send_icon]
+    appname = notify-send
+    new_icon = /home/luigi/.local/share/icons/Bubble-dark/apps/scalable/bell.svg
+
+[zsh]
+    appname = zsh
+    new_icon = /home/luigi/.local/share/icons/Bubble-dark/apps/scalable/utilities-terminal.svg
+  
+[firefox]
+    appname = firefox
+    new_icon = /home/luigi/.local/share/icons/Bubble-dark/apps/scalable/firefox.svg
+  
+[telegram]
+    appname = telegram
+    new_icon = /home/luigi/.local/share/icons/Bubble-dark/apps/scalable/telegram.svg
+  
+[discord]
+    appname = discord
+    new_icon = /home/luigi/.local/share/icons/Bubble-dark/apps/scalable/com.discordapp.Discord.svg
+
+[urgency_low]
+    background = colors.background
+    foreground = "#ECEFF4"
+    timeout = 5
+
+[urgency_normal]
+    background = colors.background
+    foreground = "#ECEFF4"
+    timeout = 5
+
+[urgency_critical]
+    background = colors.background
+    foreground = "#ECEFF4"
+    timeout = 0
+
+# vim: ft=conf
