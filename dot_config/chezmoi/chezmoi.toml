@@ -3,3 +3,7 @@ encryption = "gpg"
     recipient = "0F451D43A5190DF8"
 [git]
     autoPush = true
+    
+[edit]
+    command = "code"
+    args = ["--wait"]
