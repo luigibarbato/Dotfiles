@@ -18,10 +18,10 @@ chezmoi add "~/.bashrc" \
 "~/.local/bin" \
 "~/.local/share/icons" \
 "~/.local/share/fonts"
+
 # Sensible data
 chezmoi add --encrypt "~/.gitconfig" \
 "~/.config/gh" \
 "~/.config/rclone" \
 "~/.config/geary" \
-"~/.config/dconf" \
-
+"~/.config/dconf" 2>&1 | awk '{ print strftime("[%Y-%m-%d %H:%M:%S]"), $0 }' > log.txt
