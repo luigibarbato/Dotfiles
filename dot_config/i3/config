@@ -17,7 +17,9 @@ default_border none
 focus_follows_mouse no
 
 # Auto Start
-exec_always --no-startup-id xrandr --output eDP-1  --off && xrandr --output HDMI-1 --primary --mode 2560x1080 --rate 74.99
+exec_always --no-startup-id xrandr --output eDP-1 --off && xrandr --output HDMI-1 --primary --mode 2560x1080 --rate 74.99
+# exec_always --no-startup-id xrandr --output HDMI-1 --primary --mode 2560x1080 --rate 74.99
+# exec_always --no-startup-id xrandr --output eDP-1 --primary --mode 3200x2000 --rate 90.00 --scale 1 && xrandr --output HDMI-1 --off 
 exec_always --no-startup-id picom
 exec_always --no-startup-id flameshot
 exec_always --no-startup-id dunst -conf ~/.config/dunst/dunstrc
@@ -25,6 +27,7 @@ exec_always --no-startup-id feh --bg-fill -r -z ~/Pictures/Wallpapers/Ext.png
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 exec_always --no-startup-id i3altlayout
 exec_always --no-startup-id greenclip daemon
+exec_always --no-startup-id flashfocus
 
 #Apps
 bindsym $mod+Return exec kitty

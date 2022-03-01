@@ -19,6 +19,22 @@ bind '"\e[B":history-search-forward'
 
 
 ##############################################################
+#  					FUNCTIONS                                #
+##############################################################
+
+batdiff() {
+    git diff --name-only --diff-filter=d | xargs bat --diff
+}
+
+grub-update() {
+    sudo grub-mkconfig -o /boot/grub/grub.cfg
+}
+
+cat() {
+    bat -p $1
+}
+
+##############################################################
 #  					VARIABLES                                #
 ##############################################################
 
@@ -26,9 +42,10 @@ export EDITOR="micro"
 export DOCKER_BUILDKIT=1
 export STARSHIP_CONFIG=~/.config/starship/starship.toml
 export SIGHUP_WORKDIR="/home/luigi/dev/sighup"
-export FIP_WORKING_DIR="/home/luigi/dev/sighup/fip-dev-env"
+export FIP_WORKING_DIR="/home/luigi/dev/sighup/fip-dev-env/repos"
 export GOPATH="$HOME/go"
-export PATH="$PATH:$GOPATH/bin"
+export PATH="$PATH:$GOPATH/bin /home/luigi/.cargo/bin"
+export MANPAGER="sh -c 'col -bx | bat -l man -p'"
 
 ##############################################################
 #  					ALIASES                                  #
@@ -37,7 +54,6 @@ export PATH="$PATH:$GOPATH/bin"
 #--------------------#
 # 	General Alias 	 #
 #--------------------#
-
 alias m=micro
 alias k=kubectl
 alias work="cd $SIGHUP_WORKDIR"
@@ -45,14 +61,18 @@ alias sfip="cd $FIP_WORKING_DIR"
 alias r=ranger
 alias ssh="kitty +kitten ssh"
 alias dots=chezmoi
-alias ls='ls --color=auto'
-alias ll='ls -lav --ignore=..'   # show long listing of all except ".."
-alias l='ls -lav --ignore=.?*'   # show long listing but no hidden dotfiles except "."
+# alias ls='ls --color=auto'
+# alias ll='ls -lav --ignore=..'   # show long listing of all except ".."
+# alias l='ls -lav --ignore=.?*'   # show long listing but no hidden dotfiles except "."
+alias ls='lsd'
+alias l='ls -l'
+alias la='ls -a'
+alias lla='ls -la'
+alias lt='ls --tree'
 
 #-----------------------#
 # 	Git Alias Commands  #
 #-----------------------#
-
 alias gc="git clone"
 alias gs="git status"
 alias ga="git add"
@@ -95,3 +115,7 @@ eval "$(starship init bash)"
 #-----------------------#
 
 if test -n "$KITTY_INSTALLATION_DIR" -a -e "$KITTY_INSTALLATION_DIR/shell-integration/bash/kitty.bash"; then source "$KITTY_INSTALLATION_DIR/shell-integration/bash/kitty.bash"; fi
+
+# BEGIN_KITTY_SHELL_INTEGRATION
+if test -n "$KITTY_INSTALLATION_DIR" -a -e "$KITTY_INSTALLATION_DIR/shell-integration/bash/kitty.bash"; then source "$KITTY_INSTALLATION_DIR/shell-integration/bash/kitty.bash"; fi
+# END_KITTY_SHELL_INTEGRATION
