@@ -1,0 +1,27 @@
+# Common easy dots
+chezmoi add "~/.bashrc" \
+"~/.envrc" \
+"~/.bashrc" \
+"~/Pictures" \
+"~/.config/chezmoi" \
+"~/.config/direnv" \
+"~/.config/dunst" \
+"~/.config/kitty" \
+"~/.config/greenclip.toml" \
+"~/.config/i3" \
+"~/.config/micro" \
+"~/.config/picom" \
+"~/.config/pipewire" \
+"~/.config/polybar" \
+"~/.config/rofi" \
+"~/.config/starship" \
+"~/.local/bin" \
+"~/.local/share/icons" \
+"~/.local/share/fonts"
+# Sensible data
+chezmoi add --encrypt "~/.gitconfig" \
+"~/.config/gh" \
+"~/.config/rclone" \
+"~/.config/geary" \
+"~/.config/dconf" \
+
