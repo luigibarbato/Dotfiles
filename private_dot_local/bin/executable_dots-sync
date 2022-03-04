@@ -1,3 +1,5 @@
+LOGFILE="$HOME/.local/bin/dots-sync.log"
+
 # Common easy dots
 chezmoi add "~/.bashrc" \
 "~/.envrc" \
@@ -17,11 +19,11 @@ chezmoi add "~/.bashrc" \
 "~/.config/starship" \
 "~/.local/bin" \
 "~/.local/share/icons" \
-"~/.local/share/fonts"
+"~/.local/share/fonts" 2>&1 | awk '{ print strftime("[%Y-%m-%d %H:%M:%S]"), $0 }' >> log.txt
 
 # Sensible data
 chezmoi add --encrypt "~/.gitconfig" \
 "~/.config/gh" \
 "~/.config/rclone" \
 "~/.config/geary" \
-"~/.config/dconf" 2>&1 | awk '{ print strftime("[%Y-%m-%d %H:%M:%S]"), $0 }' > log.txt
+"~/.config/dconf" 2>&1 | awk '{ print strftime("[%Y-%m-%d %H:%M:%S]"), $0 }' >> $LOGFILE
