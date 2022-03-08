@@ -1,6 +1,6 @@
 [colors]
 	background = "#151515"
-	foreground = "#E8E3E3"
+	foreground = "#ffffff"
 [global]
     ### Display ###
 
@@ -99,17 +99,17 @@
 
 [urgency_low]
     background = colors.background
-    foreground = colors.foreground
+    foreground = "#ffffff"
     timeout = 5
 
 [urgency_normal]
     background = colors.background
-    foreground = colors.foreground
+    foreground = "#ffffff"
     timeout = 5
 
 [urgency_critical]
     background = colors.background
-    foreground = colors.foreground
+    foreground = "#ffffff"
     timeout = 0
 
 # vim: ft=conf
