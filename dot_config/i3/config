@@ -1,11 +1,11 @@
-#Variables
+# Variables
 set $mod Mod4
 set $alt Mod1
 set $ctrl Mod2
 
-#Settings
+# Settings
 font pango:Fira Code 14
-gaps inner 12
+gaps inner 16
 smart_gaps on
 smart_gaps inverse_outer
 smart_borders on
@@ -16,12 +16,11 @@ new_window none
 default_border none
 focus_follows_mouse no
 
-# Auto Start
+# Screen management
 exec_always --no-startup-id xrandr --output eDP1 --off --output HDMI1 --primary --mode 2560x1080 --rate 74.99
 
-#exec_always --no-startup-id xrandr --output eDP-1 --primary --mode 3200x2000 --rate 90.00
-
-#exec_always --no-startup-id picom
+# App Startup
+exec_always --no-startup-id picom
 exec_always --no-startup-id flameshot
 exec_always --no-startup-id dunst -conf ~/.config/dunst/dunstrc
 exec_always --no-startup-id feh --bg-fill -r -z ~/Pictures/Wallpapers/Ext.png
@@ -30,7 +29,7 @@ exec_always --no-startup-id i3altlayout
 exec_always --no-startup-id greenclip daemon
 exec_always --no-startup-id flashfocus
 
-#Apps
+# Apps
 bindsym $mod+Return exec kitty
 bindsym $mod+r exec --no-startup-id rofi -no-lazy-grab -show drun -theme themes/custom.rasi
 bindsym $mod+c exec --no-startup-id rofi -modi "clipboard:greenclip print" -show clipboard -run-command '{cmd}' -theme themes/darker-than-black_v3.rasi
@@ -46,7 +45,7 @@ bindsym XF86MonBrightnessUp exec --no-startup-id xbacklight +5
 bindsym XF86MonBrightnessDown exec --no-startup-id xbacklight -5
 exec_always --no-startup-id setxkbmap us -variant intl
 
-#Window Management
+# Window Management
 floating_modifier $mod
 bindsym $mod+q kill
 
@@ -69,8 +68,8 @@ bindsym $mod+h split h
 bindsym $mod+v split v
 
 
-bindsym $mod+bracketleft resize shrink width 80 px
-bindsym $mod+bracketright resize grow width 80 px
+bindsym $mod+bracketleft resize shrink width 100 px
+bindsym $mod+bracketright resize grow width 100 px
 
 #workspaces
 set $ws1 "1"

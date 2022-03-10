@@ -44,7 +44,7 @@ export STARSHIP_CONFIG=~/.config/starship/starship.toml
 export SIGHUP_WORKDIR="/home/luigi/dev/sighup"
 export FIP_WORKING_DIR="/home/luigi/dev/sighup/fip-dev-env/repos"
 export GOPATH="$HOME/go"
-export PATH="$PATH:$GOPATH/bin:/home/luigi/.cargo/bin"
+export PATH="$PATH:$GOPATH/bin:/home/luigi/.cargo/bin:/home/luigi/.local/bin"
 export MANPAGER="sh -c 'col -bx | bat -l man -p'"
 
 ##############################################################
