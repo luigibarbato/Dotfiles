@@ -1,4 +1,4 @@
-LOGFILE="$HOME/.local/bin/dots-sync.log"
+LOGFILE="$HOME/.dots-sync.log"
 
 # Common easy dots
 chezmoi add "~/.bashrc" \
@@ -22,7 +22,7 @@ chezmoi add "~/.bashrc" \
 "~/.config/polybar" \
 "~/.config/rofi" \
 "~/.config/starship" \
-"~/.local/bin" 2>&1 | awk '{ print strftime("[%Y-%m-%d %H:%M:%S]"), $0 }' >> log.txt
+"~/.local/bin" 2>&1 | awk '{ print strftime("[%Y-%m-%d %H:%M:%S]"), $0 }' >> $LOGFILE
 
 # Sensible data
 chezmoi add --encrypt "~/.gitconfig" \
@@ -31,3 +31,7 @@ chezmoi add --encrypt "~/.gitconfig" \
 "~/.config/rclone" \
 "~/.config/geary" \
 "~/.config/dconf" 2>&1 | awk '{ print strftime("[%Y-%m-%d %H:%M:%S]"), $0 }' >> $LOGFILE
+
+# Packages lsit
+pacman -Qqe > /tmp/pkglist.txt
+chezmoi add /tmp/pkglist.txt
