@@ -33,5 +33,6 @@ chezmoi add --encrypt "~/.gitconfig" \
 "~/.config/dconf" 2>&1 | awk '{ print strftime("[%Y-%m-%d %H:%M:%S]"), $0 }' >> $LOGFILE
 
 # Packages lsit
-pacman -Qqe > /tmp/pkglist.txt
-chezmoi add /tmp/pkglist.txt
+pacman -Qqe > ~/pkglist.txt
+chezmoi add ~/pkglist.txt
+rm ~/pkglist.txt
