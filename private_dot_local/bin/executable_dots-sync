@@ -4,7 +4,12 @@ LOGFILE="$HOME/.local/bin/dots-sync.log"
 chezmoi add "~/.bashrc" \
 "~/.envrc" \
 "~/.bashrc" \
+"~/.zshrc" \
+"~/.pl9k-ghostwheel.theme" \
 "~/Pictures" \
+"~/.themes" \
+"~/.fonts" \
+"~/.gitignore" \
 "~/.config/chezmoi" \
 "~/.config/direnv" \
 "~/.config/dunst" \
@@ -17,12 +22,11 @@ chezmoi add "~/.bashrc" \
 "~/.config/polybar" \
 "~/.config/rofi" \
 "~/.config/starship" \
-"~/.local/bin" \
-"~/.local/share/icons" \
-"~/.local/share/fonts" 2>&1 | awk '{ print strftime("[%Y-%m-%d %H:%M:%S]"), $0 }' >> log.txt
+"~/.local/bin" 2>&1 | awk '{ print strftime("[%Y-%m-%d %H:%M:%S]"), $0 }' >> log.txt
 
 # Sensible data
 chezmoi add --encrypt "~/.gitconfig" \
+"~/.netrc" \
 "~/.config/gh" \
 "~/.config/rclone" \
 "~/.config/geary" \

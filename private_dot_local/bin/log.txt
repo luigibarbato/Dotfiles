@@ -1,0 +1,15 @@
+[main c67a5c52] Update dot_config/chezmoi/private_chezmoistate.boltdb Add private_dot_local/bin/executable_dots-sync
+ 2 files changed, 27 insertions(+)
+ create mode 100644 private_dot_local/bin/executable_dots-sync
+[main e504ba71] Update dot_config/geary/account_01/encrypted_geary.ini.asc Update dot_config/geary/goa_account_1629840650_0/encrypted_geary.ini.asc Update dot_config/geary/goa_account_1631733517_0/encrypted_geary.ini.asc Update dot_config/geary/goa_account_1644790230_0/encrypted_geary.ini.asc Update dot_config/geary/goa_account_1644790295_1/encrypted_geary.ini.asc Update dot_config/gh/encrypted_private_config.yml.asc Update dot_config/gh/encrypted_private_hosts.yml.asc Update dot_config/private_dconf/encrypted_user.asc Update dot_config/rclone/encrypted_private_rclone.conf.asc Update encrypted_dot_gitconfig.asc
+ 10 files changed, 1034 insertions(+), 1034 deletions(-)
+ rewrite dot_config/geary/account_01/encrypted_geary.ini.asc (94%)
+ rewrite dot_config/geary/goa_account_1629840650_0/encrypted_geary.ini.asc (93%)
+ rewrite dot_config/geary/goa_account_1631733517_0/encrypted_geary.ini.asc (93%)
+ rewrite dot_config/geary/goa_account_1644790230_0/encrypted_geary.ini.asc (93%)
+ rewrite dot_config/geary/goa_account_1644790295_1/encrypted_geary.ini.asc (93%)
+ rewrite dot_config/gh/encrypted_private_config.yml.asc (94%)
+ rewrite dot_config/gh/encrypted_private_hosts.yml.asc (93%)
+ rewrite dot_config/private_dconf/encrypted_user.asc (97%)
+ rewrite dot_config/rclone/encrypted_private_rclone.conf.asc (95%)
+ rewrite encrypted_dot_gitconfig.asc (96%)

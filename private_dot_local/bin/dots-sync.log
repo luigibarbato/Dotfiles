@@ -1,0 +1,182 @@
+[2022-03-04 03:03:45] [main 4cc58c06] Update dot_config/geary/account_01/encrypted_geary.ini.asc Update dot_config/geary/goa_account_1629840650_0/encrypted_geary.ini.asc Update dot_config/geary/goa_account_1631733517_0/encrypted_geary.ini.asc Update dot_config/geary/goa_account_1644790230_0/encrypted_geary.ini.asc Update dot_config/geary/goa_account_1644790295_1/encrypted_geary.ini.asc Update dot_config/gh/encrypted_private_config.yml.asc Update dot_config/gh/encrypted_private_hosts.yml.asc Update dot_config/private_dconf/encrypted_user.asc Update dot_config/rclone/encrypted_private_rclone.conf.asc Update encrypted_dot_gitconfig.asc
+[2022-03-04 03:03:45]  10 files changed, 1038 insertions(+), 1034 deletions(-)
+[2022-03-04 03:03:45]  rewrite dot_config/geary/account_01/encrypted_geary.ini.asc (94%)
+[2022-03-04 03:03:45]  rewrite dot_config/geary/goa_account_1629840650_0/encrypted_geary.ini.asc (93%)
+[2022-03-04 03:03:45]  rewrite dot_config/geary/goa_account_1631733517_0/encrypted_geary.ini.asc (93%)
+[2022-03-04 03:03:45]  rewrite dot_config/geary/goa_account_1644790230_0/encrypted_geary.ini.asc (93%)
+[2022-03-04 03:03:45]  rewrite dot_config/geary/goa_account_1644790295_1/encrypted_geary.ini.asc (93%)
+[2022-03-04 03:03:45]  rewrite dot_config/gh/encrypted_private_config.yml.asc (94%)
+[2022-03-04 03:03:45]  rewrite dot_config/gh/encrypted_private_hosts.yml.asc (93%)
+[2022-03-04 03:03:45]  rewrite dot_config/private_dconf/encrypted_user.asc (97%)
+[2022-03-04 03:03:45]  rewrite dot_config/rclone/encrypted_private_rclone.conf.asc (95%)
+[2022-03-04 03:03:45]  rewrite encrypted_dot_gitconfig.asc (96%)
+[2022-03-04 03:03:57] To https://github.com/luigibarbato/dotfiles.git
+[2022-03-04 03:03:57]    6fee916b..4cc58c06  main -> main
+[2022-03-05 03:03:34] [main 627da049] Update dot_config/geary/account_01/encrypted_geary.ini.asc Update dot_config/geary/goa_account_1629840650_0/encrypted_geary.ini.asc Update dot_config/geary/goa_account_1631733517_0/encrypted_geary.ini.asc Update dot_config/geary/goa_account_1644790230_0/encrypted_geary.ini.asc Update dot_config/geary/goa_account_1644790295_1/encrypted_geary.ini.asc Update dot_config/gh/encrypted_private_config.yml.asc Update dot_config/gh/encrypted_private_hosts.yml.asc Update dot_config/private_dconf/encrypted_user.asc Update dot_config/rclone/encrypted_private_rclone.conf.asc Update encrypted_dot_gitconfig.asc
+[2022-03-05 03:03:34]  10 files changed, 1038 insertions(+), 1038 deletions(-)
+[2022-03-05 03:03:34]  rewrite dot_config/geary/account_01/encrypted_geary.ini.asc (94%)
+[2022-03-05 03:03:34]  rewrite dot_config/geary/goa_account_1629840650_0/encrypted_geary.ini.asc (93%)
+[2022-03-05 03:03:34]  rewrite dot_config/geary/goa_account_1631733517_0/encrypted_geary.ini.asc (93%)
+[2022-03-05 03:03:34]  rewrite dot_config/geary/goa_account_1644790230_0/encrypted_geary.ini.asc (93%)
+[2022-03-05 03:03:34]  rewrite dot_config/geary/goa_account_1644790295_1/encrypted_geary.ini.asc (93%)
+[2022-03-05 03:03:34]  rewrite dot_config/gh/encrypted_private_config.yml.asc (94%)
+[2022-03-05 03:03:34]  rewrite dot_config/gh/encrypted_private_hosts.yml.asc (93%)
+[2022-03-05 03:03:34]  rewrite dot_config/private_dconf/encrypted_user.asc (97%)
+[2022-03-05 03:03:34]  rewrite dot_config/rclone/encrypted_private_rclone.conf.asc (95%)
+[2022-03-05 03:03:34]  rewrite encrypted_dot_gitconfig.asc (96%)
+[2022-03-05 03:03:35] To https://github.com/luigibarbato/dotfiles.git
+[2022-03-05 03:03:35]    d7bd026c..627da049  main -> main
+[2022-03-06 03:03:50] [main 263e6990] Update dot_config/geary/account_01/encrypted_geary.ini.asc Update dot_config/geary/goa_account_1629840650_0/encrypted_geary.ini.asc Update dot_config/geary/goa_account_1631733517_0/encrypted_geary.ini.asc Update dot_config/geary/goa_account_1644790230_0/encrypted_geary.ini.asc Update dot_config/geary/goa_account_1644790295_1/encrypted_geary.ini.asc Update dot_config/gh/encrypted_private_config.yml.asc Update dot_config/gh/encrypted_private_hosts.yml.asc Update dot_config/private_dconf/encrypted_user.asc Update dot_config/rclone/encrypted_private_rclone.conf.asc Update encrypted_dot_gitconfig.asc
+[2022-03-06 03:03:50]  10 files changed, 1038 insertions(+), 1038 deletions(-)
+[2022-03-06 03:03:50]  rewrite dot_config/geary/account_01/encrypted_geary.ini.asc (94%)
+[2022-03-06 03:03:50]  rewrite dot_config/geary/goa_account_1629840650_0/encrypted_geary.ini.asc (93%)
+[2022-03-06 03:03:50]  rewrite dot_config/geary/goa_account_1631733517_0/encrypted_geary.ini.asc (93%)
+[2022-03-06 03:03:50]  rewrite dot_config/geary/goa_account_1644790230_0/encrypted_geary.ini.asc (93%)
+[2022-03-06 03:03:50]  rewrite dot_config/geary/goa_account_1644790295_1/encrypted_geary.ini.asc (93%)
+[2022-03-06 03:03:50]  rewrite dot_config/gh/encrypted_private_config.yml.asc (94%)
+[2022-03-06 03:03:50]  rewrite dot_config/gh/encrypted_private_hosts.yml.asc (93%)
+[2022-03-06 03:03:50]  rewrite dot_config/private_dconf/encrypted_user.asc (97%)
+[2022-03-06 03:03:50]  rewrite dot_config/rclone/encrypted_private_rclone.conf.asc (95%)
+[2022-03-06 03:03:50]  rewrite encrypted_dot_gitconfig.asc (96%)
+[2022-03-06 03:04:06] To https://github.com/luigibarbato/dotfiles.git
+[2022-03-06 03:04:06]    c88468d6..263e6990  main -> main
+[2022-03-07 03:03:40] [main 82d2bc58] Update dot_config/geary/account_01/encrypted_geary.ini.asc Update dot_config/geary/goa_account_1629840650_0/encrypted_geary.ini.asc Update dot_config/geary/goa_account_1631733517_0/encrypted_geary.ini.asc Update dot_config/geary/goa_account_1644790230_0/encrypted_geary.ini.asc Update dot_config/geary/goa_account_1644790295_1/encrypted_geary.ini.asc Update dot_config/gh/encrypted_private_config.yml.asc Update dot_config/gh/encrypted_private_hosts.yml.asc Update dot_config/private_dconf/encrypted_user.asc Update dot_config/rclone/encrypted_private_rclone.conf.asc Update encrypted_dot_gitconfig.asc
+[2022-03-07 03:03:40]  10 files changed, 1032 insertions(+), 1038 deletions(-)
+[2022-03-07 03:03:40]  rewrite dot_config/geary/account_01/encrypted_geary.ini.asc (94%)
+[2022-03-07 03:03:40]  rewrite dot_config/geary/goa_account_1629840650_0/encrypted_geary.ini.asc (93%)
+[2022-03-07 03:03:40]  rewrite dot_config/geary/goa_account_1631733517_0/encrypted_geary.ini.asc (93%)
+[2022-03-07 03:03:40]  rewrite dot_config/geary/goa_account_1644790230_0/encrypted_geary.ini.asc (93%)
+[2022-03-07 03:03:40]  rewrite dot_config/geary/goa_account_1644790295_1/encrypted_geary.ini.asc (93%)
+[2022-03-07 03:03:40]  rewrite dot_config/gh/encrypted_private_config.yml.asc (94%)
+[2022-03-07 03:03:40]  rewrite dot_config/gh/encrypted_private_hosts.yml.asc (93%)
+[2022-03-07 03:03:40]  rewrite dot_config/private_dconf/encrypted_user.asc (97%)
+[2022-03-07 03:03:40]  rewrite dot_config/rclone/encrypted_private_rclone.conf.asc (95%)
+[2022-03-07 03:03:40]  rewrite encrypted_dot_gitconfig.asc (96%)
+[2022-03-07 03:03:41] To https://github.com/luigibarbato/dotfiles.git
+[2022-03-07 03:03:41]    6d6feb4e..82d2bc58  main -> main
+[2022-03-08 03:03:09] [main dcbd54c6] Update dot_config/geary/account_01/encrypted_geary.ini.asc Update dot_config/geary/goa_account_1629840650_0/encrypted_geary.ini.asc Update dot_config/geary/goa_account_1631733517_0/encrypted_geary.ini.asc Update dot_config/geary/goa_account_1644790230_0/encrypted_geary.ini.asc Update dot_config/geary/goa_account_1644790295_1/encrypted_geary.ini.asc Update dot_config/gh/encrypted_private_config.yml.asc Update dot_config/gh/encrypted_private_hosts.yml.asc Update dot_config/private_dconf/encrypted_user.asc Update dot_config/rclone/encrypted_private_rclone.conf.asc Update encrypted_dot_gitconfig.asc
+[2022-03-08 03:03:09]  10 files changed, 1032 insertions(+), 1032 deletions(-)
+[2022-03-08 03:03:09]  rewrite dot_config/geary/account_01/encrypted_geary.ini.asc (94%)
+[2022-03-08 03:03:09]  rewrite dot_config/geary/goa_account_1629840650_0/encrypted_geary.ini.asc (93%)
+[2022-03-08 03:03:09]  rewrite dot_config/geary/goa_account_1631733517_0/encrypted_geary.ini.asc (93%)
+[2022-03-08 03:03:09]  rewrite dot_config/geary/goa_account_1644790230_0/encrypted_geary.ini.asc (93%)
+[2022-03-08 03:03:09]  rewrite dot_config/geary/goa_account_1644790295_1/encrypted_geary.ini.asc (93%)
+[2022-03-08 03:03:09]  rewrite dot_config/gh/encrypted_private_config.yml.asc (94%)
+[2022-03-08 03:03:09]  rewrite dot_config/gh/encrypted_private_hosts.yml.asc (93%)
+[2022-03-08 03:03:09]  rewrite dot_config/private_dconf/encrypted_user.asc (97%)
+[2022-03-08 03:03:09]  rewrite dot_config/rclone/encrypted_private_rclone.conf.asc (95%)
+[2022-03-08 03:03:09]  rewrite encrypted_dot_gitconfig.asc (96%)
+[2022-03-08 03:03:10] To https://github.com/luigibarbato/dotfiles.git
+[2022-03-08 03:03:10]    d7d6ab1c..dcbd54c6  main -> main
+[2022-03-10 03:03:45] [main 9ba11fdb] Update dot_config/geary/account_01/encrypted_geary.ini.asc Update dot_config/geary/goa_account_1629840650_0/encrypted_geary.ini.asc Update dot_config/geary/goa_account_1631733517_0/encrypted_geary.ini.asc Update dot_config/geary/goa_account_1644790230_0/encrypted_geary.ini.asc Update dot_config/geary/goa_account_1644790295_1/encrypted_geary.ini.asc Update dot_config/gh/encrypted_private_config.yml.asc Update dot_config/gh/encrypted_private_hosts.yml.asc Update dot_config/private_dconf/encrypted_user.asc Update dot_config/rclone/encrypted_private_rclone.conf.asc Update encrypted_dot_gitconfig.asc
+[2022-03-10 03:03:45]  10 files changed, 1032 insertions(+), 1032 deletions(-)
+[2022-03-10 03:03:45]  rewrite dot_config/geary/account_01/encrypted_geary.ini.asc (94%)
+[2022-03-10 03:03:45]  rewrite dot_config/geary/goa_account_1629840650_0/encrypted_geary.ini.asc (93%)
+[2022-03-10 03:03:45]  rewrite dot_config/geary/goa_account_1631733517_0/encrypted_geary.ini.asc (93%)
+[2022-03-10 03:03:45]  rewrite dot_config/geary/goa_account_1644790230_0/encrypted_geary.ini.asc (93%)
+[2022-03-10 03:03:45]  rewrite dot_config/geary/goa_account_1644790295_1/encrypted_geary.ini.asc (93%)
+[2022-03-10 03:03:45]  rewrite dot_config/gh/encrypted_private_config.yml.asc (94%)
+[2022-03-10 03:03:45]  rewrite dot_config/gh/encrypted_private_hosts.yml.asc (93%)
+[2022-03-10 03:03:45]  rewrite dot_config/private_dconf/encrypted_user.asc (97%)
+[2022-03-10 03:03:45]  rewrite dot_config/rclone/encrypted_private_rclone.conf.asc (95%)
+[2022-03-10 03:03:45]  rewrite encrypted_dot_gitconfig.asc (96%)
+[2022-03-10 03:03:46] To https://github.com/luigibarbato/dotfiles.git
+[2022-03-10 03:03:46]    9abf7820..9ba11fdb  main -> main
+[2022-03-11 03:03:33] [main a2d29f61] Update dot_config/geary/account_01/encrypted_geary.ini.asc Update dot_config/geary/goa_account_1629840650_0/encrypted_geary.ini.asc Update dot_config/geary/goa_account_1631733517_0/encrypted_geary.ini.asc Update dot_config/geary/goa_account_1644790230_0/encrypted_geary.ini.asc Update dot_config/geary/goa_account_1644790295_1/encrypted_geary.ini.asc Update dot_config/gh/encrypted_private_config.yml.asc Update dot_config/gh/encrypted_private_hosts.yml.asc Update dot_config/private_dconf/encrypted_user.asc Update dot_config/rclone/encrypted_private_rclone.conf.asc Update encrypted_dot_gitconfig.asc
+[2022-03-11 03:03:33]  10 files changed, 1032 insertions(+), 1032 deletions(-)
+[2022-03-11 03:03:33]  rewrite dot_config/geary/account_01/encrypted_geary.ini.asc (94%)
+[2022-03-11 03:03:33]  rewrite dot_config/geary/goa_account_1629840650_0/encrypted_geary.ini.asc (93%)
+[2022-03-11 03:03:33]  rewrite dot_config/geary/goa_account_1631733517_0/encrypted_geary.ini.asc (93%)
+[2022-03-11 03:03:33]  rewrite dot_config/geary/goa_account_1644790230_0/encrypted_geary.ini.asc (93%)
+[2022-03-11 03:03:33]  rewrite dot_config/geary/goa_account_1644790295_1/encrypted_geary.ini.asc (93%)
+[2022-03-11 03:03:33]  rewrite dot_config/gh/encrypted_private_config.yml.asc (94%)
+[2022-03-11 03:03:33]  rewrite dot_config/gh/encrypted_private_hosts.yml.asc (93%)
+[2022-03-11 03:03:33]  rewrite dot_config/private_dconf/encrypted_user.asc (97%)
+[2022-03-11 03:03:33]  rewrite dot_config/rclone/encrypted_private_rclone.conf.asc (95%)
+[2022-03-11 03:03:33]  rewrite encrypted_dot_gitconfig.asc (96%)
+[2022-03-11 03:03:34] To https://github.com/luigibarbato/dotfiles.git
+[2022-03-11 03:03:34]    9a1a3db6..a2d29f61  main -> main
+[2022-03-12 03:03:38] [main 3b322d53] Update dot_config/geary/account_01/encrypted_geary.ini.asc Update dot_config/geary/goa_account_1629840650_0/encrypted_geary.ini.asc Update dot_config/geary/goa_account_1631733517_0/encrypted_geary.ini.asc Update dot_config/geary/goa_account_1644790230_0/encrypted_geary.ini.asc Update dot_config/geary/goa_account_1644790295_1/encrypted_geary.ini.asc Update dot_config/gh/encrypted_private_config.yml.asc Update dot_config/gh/encrypted_private_hosts.yml.asc Update dot_config/private_dconf/encrypted_user.asc Update dot_config/rclone/encrypted_private_rclone.conf.asc Update encrypted_dot_gitconfig.asc
+[2022-03-12 03:03:38]  10 files changed, 1027 insertions(+), 1032 deletions(-)
+[2022-03-12 03:03:38]  rewrite dot_config/geary/account_01/encrypted_geary.ini.asc (94%)
+[2022-03-12 03:03:38]  rewrite dot_config/geary/goa_account_1629840650_0/encrypted_geary.ini.asc (93%)
+[2022-03-12 03:03:38]  rewrite dot_config/geary/goa_account_1631733517_0/encrypted_geary.ini.asc (93%)
+[2022-03-12 03:03:38]  rewrite dot_config/geary/goa_account_1644790230_0/encrypted_geary.ini.asc (93%)
+[2022-03-12 03:03:38]  rewrite dot_config/geary/goa_account_1644790295_1/encrypted_geary.ini.asc (93%)
+[2022-03-12 03:03:38]  rewrite dot_config/gh/encrypted_private_config.yml.asc (94%)
+[2022-03-12 03:03:38]  rewrite dot_config/gh/encrypted_private_hosts.yml.asc (93%)
+[2022-03-12 03:03:38]  rewrite dot_config/private_dconf/encrypted_user.asc (97%)
+[2022-03-12 03:03:38]  rewrite dot_config/rclone/encrypted_private_rclone.conf.asc (95%)
+[2022-03-12 03:03:38]  rewrite encrypted_dot_gitconfig.asc (96%)
+[2022-03-12 03:03:39] To https://github.com/luigibarbato/dotfiles.git
+[2022-03-12 03:03:39]    beed5fab..3b322d53  main -> main
+[2022-03-13 03:03:17] [main f12d97ea] Update dot_config/geary/account_01/encrypted_geary.ini.asc Update dot_config/geary/goa_account_1629840650_0/encrypted_geary.ini.asc Update dot_config/geary/goa_account_1631733517_0/encrypted_geary.ini.asc Update dot_config/geary/goa_account_1644790230_0/encrypted_geary.ini.asc Update dot_config/geary/goa_account_1644790295_1/encrypted_geary.ini.asc Update dot_config/gh/encrypted_private_config.yml.asc Update dot_config/gh/encrypted_private_hosts.yml.asc Update dot_config/private_dconf/encrypted_user.asc Update dot_config/rclone/encrypted_private_rclone.conf.asc Update encrypted_dot_gitconfig.asc
+[2022-03-13 03:03:17]  10 files changed, 1027 insertions(+), 1027 deletions(-)
+[2022-03-13 03:03:17]  rewrite dot_config/geary/account_01/encrypted_geary.ini.asc (94%)
+[2022-03-13 03:03:17]  rewrite dot_config/geary/goa_account_1629840650_0/encrypted_geary.ini.asc (93%)
+[2022-03-13 03:03:17]  rewrite dot_config/geary/goa_account_1631733517_0/encrypted_geary.ini.asc (93%)
+[2022-03-13 03:03:17]  rewrite dot_config/geary/goa_account_1644790230_0/encrypted_geary.ini.asc (93%)
+[2022-03-13 03:03:17]  rewrite dot_config/geary/goa_account_1644790295_1/encrypted_geary.ini.asc (93%)
+[2022-03-13 03:03:17]  rewrite dot_config/gh/encrypted_private_config.yml.asc (94%)
+[2022-03-13 03:03:17]  rewrite dot_config/gh/encrypted_private_hosts.yml.asc (93%)
+[2022-03-13 03:03:17]  rewrite dot_config/private_dconf/encrypted_user.asc (97%)
+[2022-03-13 03:03:17]  rewrite dot_config/rclone/encrypted_private_rclone.conf.asc (95%)
+[2022-03-13 03:03:17]  rewrite encrypted_dot_gitconfig.asc (96%)
+[2022-03-13 03:03:18] To https://github.com/luigibarbato/dotfiles.git
+[2022-03-13 03:03:18]    4fa90af7..f12d97ea  main -> main
+[2022-03-14 03:03:31] [main 921aea35] Update dot_config/geary/account_01/encrypted_geary.ini.asc Update dot_config/geary/goa_account_1629840650_0/encrypted_geary.ini.asc Update dot_config/geary/goa_account_1631733517_0/encrypted_geary.ini.asc Update dot_config/geary/goa_account_1644790230_0/encrypted_geary.ini.asc Update dot_config/geary/goa_account_1644790295_1/encrypted_geary.ini.asc Update dot_config/gh/encrypted_private_config.yml.asc Update dot_config/gh/encrypted_private_hosts.yml.asc Update dot_config/private_dconf/encrypted_user.asc Update dot_config/rclone/encrypted_private_rclone.conf.asc Update encrypted_dot_gitconfig.asc
+[2022-03-14 03:03:31]  10 files changed, 1027 insertions(+), 1027 deletions(-)
+[2022-03-14 03:03:31]  rewrite dot_config/geary/account_01/encrypted_geary.ini.asc (94%)
+[2022-03-14 03:03:31]  rewrite dot_config/geary/goa_account_1629840650_0/encrypted_geary.ini.asc (93%)
+[2022-03-14 03:03:31]  rewrite dot_config/geary/goa_account_1631733517_0/encrypted_geary.ini.asc (93%)
+[2022-03-14 03:03:31]  rewrite dot_config/geary/goa_account_1644790230_0/encrypted_geary.ini.asc (93%)
+[2022-03-14 03:03:31]  rewrite dot_config/geary/goa_account_1644790295_1/encrypted_geary.ini.asc (93%)
+[2022-03-14 03:03:31]  rewrite dot_config/gh/encrypted_private_config.yml.asc (94%)
+[2022-03-14 03:03:31]  rewrite dot_config/gh/encrypted_private_hosts.yml.asc (93%)
+[2022-03-14 03:03:31]  rewrite dot_config/private_dconf/encrypted_user.asc (97%)
+[2022-03-14 03:03:31]  rewrite dot_config/rclone/encrypted_private_rclone.conf.asc (95%)
+[2022-03-14 03:03:31]  rewrite encrypted_dot_gitconfig.asc (96%)
+[2022-03-14 03:03:32] To https://github.com/luigibarbato/dotfiles.git
+[2022-03-14 03:03:32]    7edfc3d3..921aea35  main -> main
+[2022-03-15 03:03:24] [main 446909dc] Update dot_config/geary/account_01/encrypted_geary.ini.asc Update dot_config/geary/goa_account_1629840650_0/encrypted_geary.ini.asc Update dot_config/geary/goa_account_1631733517_0/encrypted_geary.ini.asc Update dot_config/geary/goa_account_1644790230_0/encrypted_geary.ini.asc Update dot_config/geary/goa_account_1644790295_1/encrypted_geary.ini.asc Update dot_config/gh/encrypted_private_config.yml.asc Update dot_config/gh/encrypted_private_hosts.yml.asc Update dot_config/private_dconf/encrypted_user.asc Update dot_config/rclone/encrypted_private_rclone.conf.asc Update encrypted_dot_gitconfig.asc
+[2022-03-15 03:03:24]  10 files changed, 1051 insertions(+), 1027 deletions(-)
+[2022-03-15 03:03:24]  rewrite dot_config/geary/account_01/encrypted_geary.ini.asc (94%)
+[2022-03-15 03:03:24]  rewrite dot_config/geary/goa_account_1629840650_0/encrypted_geary.ini.asc (93%)
+[2022-03-15 03:03:24]  rewrite dot_config/geary/goa_account_1631733517_0/encrypted_geary.ini.asc (93%)
+[2022-03-15 03:03:24]  rewrite dot_config/geary/goa_account_1644790230_0/encrypted_geary.ini.asc (93%)
+[2022-03-15 03:03:24]  rewrite dot_config/geary/goa_account_1644790295_1/encrypted_geary.ini.asc (93%)
+[2022-03-15 03:03:24]  rewrite dot_config/gh/encrypted_private_config.yml.asc (94%)
+[2022-03-15 03:03:24]  rewrite dot_config/gh/encrypted_private_hosts.yml.asc (93%)
+[2022-03-15 03:03:24]  rewrite dot_config/private_dconf/encrypted_user.asc (97%)
+[2022-03-15 03:03:24]  rewrite dot_config/rclone/encrypted_private_rclone.conf.asc (95%)
+[2022-03-15 03:03:24]  rewrite encrypted_dot_gitconfig.asc (96%)
+[2022-03-15 03:03:25] To https://github.com/luigibarbato/dotfiles.git
+[2022-03-15 03:03:25]    b5d9f42d..446909dc  main -> main
+[2022-03-16 03:03:24] [main f12ed5e3] Update dot_config/geary/account_01/encrypted_geary.ini.asc Update dot_config/geary/goa_account_1629840650_0/encrypted_geary.ini.asc Update dot_config/geary/goa_account_1631733517_0/encrypted_geary.ini.asc Update dot_config/geary/goa_account_1644790230_0/encrypted_geary.ini.asc Update dot_config/geary/goa_account_1644790295_1/encrypted_geary.ini.asc Update dot_config/gh/encrypted_private_config.yml.asc Update dot_config/gh/encrypted_private_hosts.yml.asc Update dot_config/private_dconf/encrypted_user.asc Update dot_config/rclone/encrypted_private_rclone.conf.asc Update encrypted_dot_gitconfig.asc
+[2022-03-16 03:03:24]  10 files changed, 1041 insertions(+), 1051 deletions(-)
+[2022-03-16 03:03:24]  rewrite dot_config/geary/account_01/encrypted_geary.ini.asc (94%)
+[2022-03-16 03:03:24]  rewrite dot_config/geary/goa_account_1629840650_0/encrypted_geary.ini.asc (93%)
+[2022-03-16 03:03:24]  rewrite dot_config/geary/goa_account_1631733517_0/encrypted_geary.ini.asc (93%)
+[2022-03-16 03:03:24]  rewrite dot_config/geary/goa_account_1644790230_0/encrypted_geary.ini.asc (93%)
+[2022-03-16 03:03:24]  rewrite dot_config/geary/goa_account_1644790295_1/encrypted_geary.ini.asc (93%)
+[2022-03-16 03:03:24]  rewrite dot_config/gh/encrypted_private_config.yml.asc (94%)
+[2022-03-16 03:03:24]  rewrite dot_config/gh/encrypted_private_hosts.yml.asc (93%)
+[2022-03-16 03:03:24]  rewrite dot_config/private_dconf/encrypted_user.asc (98%)
+[2022-03-16 03:03:24]  rewrite dot_config/rclone/encrypted_private_rclone.conf.asc (95%)
+[2022-03-16 03:03:24]  rewrite encrypted_dot_gitconfig.asc (96%)
+[2022-03-16 03:03:25] To https://github.com/luigibarbato/dotfiles.git
+[2022-03-16 03:03:25]    33e0090c..f12ed5e3  main -> main
+[2022-03-17 03:03:12] [main 934cdab2] Update dot_config/geary/account_01/encrypted_geary.ini.asc Update dot_config/geary/goa_account_1629840650_0/encrypted_geary.ini.asc Update dot_config/geary/goa_account_1631733517_0/encrypted_geary.ini.asc Update dot_config/geary/goa_account_1644790230_0/encrypted_geary.ini.asc Update dot_config/geary/goa_account_1644790295_1/encrypted_geary.ini.asc Update dot_config/gh/encrypted_private_config.yml.asc Update dot_config/gh/encrypted_private_hosts.yml.asc Update dot_config/private_dconf/encrypted_user.asc Update dot_config/rclone/encrypted_private_rclone.conf.asc Update encrypted_dot_gitconfig.asc
+[2022-03-17 03:03:12]  10 files changed, 1054 insertions(+), 1041 deletions(-)
+[2022-03-17 03:03:12]  rewrite dot_config/geary/account_01/encrypted_geary.ini.asc (94%)
+[2022-03-17 03:03:12]  rewrite dot_config/geary/goa_account_1629840650_0/encrypted_geary.ini.asc (93%)
+[2022-03-17 03:03:12]  rewrite dot_config/geary/goa_account_1631733517_0/encrypted_geary.ini.asc (93%)
+[2022-03-17 03:03:12]  rewrite dot_config/geary/goa_account_1644790230_0/encrypted_geary.ini.asc (93%)
+[2022-03-17 03:03:12]  rewrite dot_config/geary/goa_account_1644790295_1/encrypted_geary.ini.asc (93%)
+[2022-03-17 03:03:12]  rewrite dot_config/gh/encrypted_private_config.yml.asc (94%)
+[2022-03-17 03:03:12]  rewrite dot_config/gh/encrypted_private_hosts.yml.asc (93%)
+[2022-03-17 03:03:12]  rewrite dot_config/private_dconf/encrypted_user.asc (97%)
+[2022-03-17 03:03:12]  rewrite dot_config/rclone/encrypted_private_rclone.conf.asc (95%)
+[2022-03-17 03:03:12]  rewrite encrypted_dot_gitconfig.asc (96%)
+[2022-03-17 03:03:13] To https://github.com/luigibarbato/dotfiles.git
+[2022-03-17 03:03:13]    fd074d6f..934cdab2  main -> main

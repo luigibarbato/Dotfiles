@@ -34,46 +34,6 @@ cat() {
     bat -p $1
 }
 
-_mage_completions()
-{
-    local cur prev opts
-
-    # namespaces with colon
-    _get_comp_words_by_ref -n : cur
-
-    # prev word.
-    prev="${COMP_WORDS[COMP_CWORD-1]}"
-
-    case "${prev}" in
-        -compile)
-            COMPREPLY+=( $(compgen -f -- "${cur}") )
-            ;;
-        -d)
-            COMPREPLY+=( $(compgen -d -- "${cur}") )
-            ;;
-        -gocmd)
-            COMPREPLY+=( $(compgen -f -- "${cur}") )
-            ;;
-        -t)
-            opts="30s 1m 1m30s 2m 2m30s 3m 3m30s 4m 4m30s 5m 10m 20m 30m 1h"
-            COMPREPLY+=( $(compgen -W "${opts}" -- ${cur}) )
-            ;;
-        *)
-            
-            if [[ ${cur} == -* ]]; then
-                opts="$(MAGEFILE_ENABLE_COLOR=0 mage -h | grep "^\\s*-" | awk '{print $1}')"
-            else
-                opts="$(MAGEFILE_ENABLE_COLOR=0 mage -l | tail -n +2 | awk '{print tolower($1)}')"
-            fi
-            COMPREPLY+=( $(compgen -W "${opts}" -- "${cur}"))
-            ;;
-    esac
-
-    __ltrim_colon_completions "$cur"
-}
-
-complete -F _mage_completions mage
-
 
 ##############################################################
 #  					VARIABLES                                #
@@ -82,8 +42,8 @@ complete -F _mage_completions mage
 export EDITOR="micro"
 export DOCKER_BUILDKIT=1
 export STARSHIP_CONFIG=~/.config/starship/starship.toml
-export SIGHUP_WORKDIR="/home/luigi/dev/sighup"
-export FIP_WORKING_DIR="/home/luigi/dev/sighup/fip-dev-env/repos"
+export SIGHUP_WORKDIR="$HOME/dev/sighup"
+export FIP_WORKING_DIR="$HOME/dev/sighup/fip-dev-env/repos"
 export GOPATH="$HOME/go"
 export PATH="$PATH:$GOPATH/bin:/home/luigi/.cargo/bin:/home/luigi/.local/bin"
 export MANPAGER="sh -c 'col -bx | bat -l man -p'"

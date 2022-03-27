@@ -17,7 +17,8 @@ default_border none
 focus_follows_mouse no
 
 # Screen management
-exec_always --no-startup-id xrandr --output eDP1 --off --output HDMI1 --primary --mode 2560x1080 --rate 74.99
+#exec_always --no-startup-id xrandr --output eDP1 --off --output HDMI1 --primary --mode 2560x1080 --rate 74.99
+exec_always --no-startup-id autorandr
 
 # App Startup
 #exec_always --no-startup-id picom
