@@ -17,7 +17,7 @@ default_border none
 focus_follows_mouse no
 
 # Screen management
-#exec_always --no-startup-id xrandr --output eDP1 --off --output HDMI1 --primary --mode 2560x1080 --rate 74.99
+exec_always --no-startup-id xrandr --output eDP-1 --off --output HDMI-1 --primary --mode 2560x1080 --rate 74.99
 exec_always --no-startup-id autorandr
 
 # App Startup
@@ -100,6 +100,34 @@ bindsym $mod+Shift+r restart
 bindsym $mod+Shift+l exec sh $HOME/.local/bin/lock
 bindsym $mod+Shift+e exit
 
-#Rules
-for_window[class="feh"] floating toggle
-for_window[class="sxiv"] floating toggle
+# set floating for window roles
+for_window [window_role="pop-up"] floating enable
+for_window [window_role="bubble"] floating enable
+for_window [window_role="task_dialog"] floating enable
+for_window [window_role="Preferences"] floating enable
+for_window [window_type="dialog"] floating enable
+for_window [window_type="menu"] floating enable
+for_window [window_role="About"] floating enable
+for_window [title="File Operation Progress"] floating enable, border pixel 1, sticky enable, resize set width 40 ppt height 30 ppt
+for_window [id="floating_shell_portrait"] floating enable, border pixel 1, sticky enable, resize set width 30 ppt height 40 ppt
+for_window [title="Picture in picture"] floating enable, sticky enable
+for_window [title="nmtui"] floating enable,  resize set width 50 ppt height 70 ppt
+for_window [title="htop"] floating enable, resize set width 50 ppt height 70 ppt
+for_window [id="xsensors"] floating enable
+for_window [title="Save File"] floating enable
+
+# set floating for special apps:
+for_window [class="Xsane" instance="xsane"] floating enable
+for_window [id="pavucontrol" ] floating enable, resize set width 40 ppt height 30 ppt
+for_window [class="qt5ct" instance="qt5ct"] floating enable, resize set width 60 ppt height 50 ppt
+for_window [class="Bluetooth-sendto" instance="bluetooth-sendto"] floating enable
+for_window [id="pamac-manager"] floating enable, resize set width 80 ppt height 70 ppt
+for_window [class="Lxappearance"] floating enable, resize set width 60 ppt height 50 ppt
+
+# set floating (nontiling)for apps needing it:
+for_window [class="Yad" instance="yad"] floating enable
+for_window [id="thunar"] floating enable
+for_window [id="org.gnome.Nautilus"] floating enable
+for_window [id="yad"] floating enable
+for_window [id="blueman-manager"] floating enable,  resize set width 40 ppt height 30 ppt
+for_window [urgent="latest"] focus

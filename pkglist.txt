@@ -221,6 +221,7 @@ gperf
 graphviz
 grep
 grilo-plugins
+grim
 groff
 grub
 grub-btrfs
@@ -284,6 +285,7 @@ k9s
 kaccounts-integration
 kactivities
 kactivities-stats
+kanshi
 karchive
 kauth
 kbookmarks
@@ -321,6 +323,7 @@ kitemviews
 kitty
 kitty-shell-integration
 kitty-terminfo
+kubectx
 kustomize
 leptonica
 less
@@ -417,6 +420,7 @@ libgit2
 libgsf
 libimagequant
 libindicator-gtk3
+libinput-gestures
 libkeybinder3
 libluv
 libmms
@@ -937,6 +941,7 @@ whois
 wireless-regdb
 wireless_tools
 wl-clipboard
+wlr-randr
 wlroots
 woeusb
 wofi
@@ -957,7 +962,6 @@ xdotool
 xf86-input-libinput
 xf86-input-wacom
 xf86-video-fbdev
-xf86-video-intel
 xf86-video-vesa
 xfce4-settings
 xfconf
