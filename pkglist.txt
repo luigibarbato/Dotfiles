@@ -70,7 +70,6 @@ containerd
 convertlit
 cpio
 cpupower
-crda
 cronie
 cryptsetup
 cups
@@ -122,6 +121,7 @@ eos-log-tool
 eos-rankmirrors
 eos-update-notifier
 epiphany
+espanso-wayland-git
 espeak-ng
 ethtool
 evince
@@ -144,7 +144,7 @@ findutils
 firefox
 firefox-i18n-it
 fish
-flameshot
+flameshot-git
 flex
 fmt
 foomatic-db
@@ -216,6 +216,7 @@ gnu-netcat
 go
 gobject-introspection
 goocanvas
+google-chrome
 gparted
 gperf
 graphviz
@@ -444,7 +445,7 @@ libtommath
 libtool
 libva-mesa-driver
 libva-utils
-libva-vdpau-driver
+libva-vdpau-driver-vp9-git
 libvterm
 libwmf
 libwnck3
@@ -807,7 +808,6 @@ restic
 rhash
 rnnoise
 rofi
-rofi-bluetooth-git
 rofi-greenclip
 rp-pppoe
 rsync
@@ -829,6 +829,7 @@ seatd
 sed
 sg3_utils
 shaderc
+shellcheck-bin
 signon-kwallet-extension
 signon-plugin-oauth2
 signon-ui
