@@ -167,6 +167,7 @@ gdb-common
 gdm
 geary
 gedit
+gestures
 gettext
 gimagereader-common
 gimagereader-gtk
@@ -808,6 +809,7 @@ restic
 rhash
 rnnoise
 rofi
+rofi-bluetooth-git
 rofi-greenclip
 rp-pppoe
 rsync
@@ -835,7 +837,7 @@ signon-plugin-oauth2
 signon-ui
 signond
 simple-scan
-slack-desktop
+slack-wayland
 slop
 smartmontools
 snap-pac
@@ -858,6 +860,7 @@ sway
 swaybg
 swayidle
 swaylock
+swaync-git
 sxhkd
 syncthing
 syndication
@@ -936,6 +939,7 @@ waybar
 wayland-protocols
 wayland-utils
 welcome
+wf-recorder
 wget
 which
 whois
@@ -947,6 +951,7 @@ wlroots
 woeusb
 wofi
 wpa_supplicant
+wtype
 wvdial
 wvstreams
 xapp
