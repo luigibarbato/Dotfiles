@@ -1,0 +1,7 @@
+matches:
+  - trigger: ":sm"
+    replace: "luigi.barbato@sighup.io"
+  - trigger: ":pm"
+    replace: "luigibarbato0@gmail.com"
+  - trigger: ":wm"
+    replace: "work@luigibarbato.digital"

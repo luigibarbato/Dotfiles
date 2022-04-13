@@ -1,0 +1,31 @@
+matches:
+  - trigger: ":pr"
+    replace: "{{prContent}}"
+    vars:
+      - name: prContent
+        type: shell
+        params:
+          cmd: "cat ~/.config/espanso/pr.md"
+
+  - trigger: ":daily"
+    replace: "{{dailyContent}}{{prSection}}{{prContent}}"
+    vars:
+      - name: dailyContent
+        type: shell
+        params:
+          cmd: "cat ~/.config/espanso/daily.md"
+      - name: prSection
+        type: echo
+        params:
+          echo: "\n\n *Pending Reviews*\n"
+      - name: prContent
+        type: shell
+        params:
+          cmd: "gh prs"
+  - trigger: ":mail"
+    replace: "{{mailContent}}"
+    vars:
+      - name: mailContent
+        type: shell
+        params:
+          cmd: "cat ~/.config/espanso/mail.md"
