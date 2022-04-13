@@ -325,6 +325,7 @@ kitemviews
 kitty
 kitty-shell-integration
 kitty-terminfo
+kooha
 kubectx
 kustomize
 leptonica
@@ -553,6 +554,7 @@ patch
 pavucontrol
 pcaudiolib
 pcurses
+peek
 peg
 perl
 perl-alien-build
