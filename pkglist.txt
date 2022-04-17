@@ -100,7 +100,6 @@ dunst
 duplicity
 dust
 e2fsprogs
-earthly
 ebook-tools
 editorconfig-core-c
 efibootmgr
@@ -514,6 +513,7 @@ nbd
 ncmpcpp
 ndisc6
 neofetch
+neovim
 net-tools
 netctl
 netpbm
@@ -742,7 +742,6 @@ python-pyenchant
 python-pygments
 python-pyinotify
 python-pynacl
-python-pynvim
 python-pyopenssl
 python-pyqt5
 python-pyqt5-sip
@@ -897,6 +896,7 @@ time
 tldr
 tlp
 tmux
+tmux-plugin-manager
 totem
 tracker
 tracker-miners
