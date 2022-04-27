@@ -23,6 +23,7 @@ arc-gtk-theme-eos
 arc-x-icons-theme
 archlinux-appstream-data
 aribb24
+ascii-image-converter
 asciidoc
 asciinema
 asdf-vm
@@ -217,8 +218,10 @@ go
 gobject-introspection
 goocanvas
 google-chrome
+google-chrome-beta
 gparted
 gperf
+graphicsmagick
 graphviz
 grep
 grilo-plugins
@@ -669,6 +672,7 @@ polybar
 poppler-data
 poppler-glib
 poppler-qt5
+postman-bin
 potrace
 ppp
 pptpclient
@@ -948,6 +952,7 @@ whois
 wireless-regdb
 wireless_tools
 wl-clipboard
+wl-color-picker
 wlr-randr
 wlroots
 woeusb
