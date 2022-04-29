@@ -65,6 +65,7 @@ check
 cheese
 chezmoi
 chrono-date
+clang
 cmake
 colorpicker
 containerd
@@ -269,6 +270,7 @@ i2c-tools
 i3-gaps
 ibus
 inetutils
+insomnia-bin
 intel-gmmlib
 intel-gpu-tools
 intel-media-driver
@@ -830,6 +832,7 @@ rustup
 rygel
 s-nail
 sassc
+screen
 sddm
 sdl
 seatd
