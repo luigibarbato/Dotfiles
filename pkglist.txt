@@ -175,6 +175,7 @@ gimp
 git
 git-crypt
 github-cli
+gitify-bin
 glances
 glew
 glib2-docs
@@ -548,6 +549,7 @@ open-isns
 openconnect
 opendesktop-fonts
 openmpi
+openshot
 openssl-1.0
 openvpn
 orca
