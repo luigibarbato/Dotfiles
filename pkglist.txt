@@ -217,6 +217,7 @@ gnome-weather
 gnu-netcat
 go
 gobject-introspection
+gofumpt
 goocanvas
 google-chrome
 google-chrome-beta
