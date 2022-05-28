@@ -220,8 +220,7 @@ gobject-introspection
 gofumpt
 goocanvas
 google-chrome
-google-chrome-beta
-google-chrome-dev
+gotestsum
 gparted
 gperf
 graphicsmagick
@@ -544,6 +543,7 @@ nvidia-installer-dkms
 nvidia-settings
 nvidia-utils
 ocrfeeder
+okteto
 okular
 oniguruma
 open-isns
