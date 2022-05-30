@@ -32,6 +32,8 @@ autoconf
 automake
 autorandr
 awesome-git
+aws-cli-v2-bin
+aws-sam-cli-bin
 b43-fwcutter
 baloo
 baobab
@@ -146,6 +148,7 @@ firefox-i18n-it
 fish
 flameshot-git
 flex
+flyctl-bin
 fmt
 foomatic-db
 foomatic-db-engine
