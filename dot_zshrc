@@ -2,89 +2,35 @@
 #  					GENERAL                                  #
 ##############################################################
 
-POWERLEVEL9K_MODE='nerdfont-complete'
+# Load all files from .shellrc.d directory
+if [ -d $HOME/.shellrc.d ]; then
+    for file in $HOME/.shellrc.d/.*; do
+        source $file
+    done
+fi
 
-source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
+# Move Left-Right in cmd
+bindkey "^[[1;5C" forward-word
+bindkey "^[[1;5D" backward-word
 
-source ~/.pl9k-ghostwheel.theme
+# don't put duplicate lines or lines starting with space in the history.
+# See bash(1) for more options
+HISTCONTROL=ignoreboth
 
+# Plugins
 source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source /usr/share/zsh/plugins/zsh-history-substring-search/zsh-history-substring-search.zsh
 
-##############################################################
-#  					FUNCTIONS                                #
-##############################################################
+# History Substring Search
+bindkey '^[[A' history-substring-search-up
+bindkey '^[[B' history-substring-search-down
 
-batdiff() {
-    git diff --name-only --diff-filter=d | xargs bat --diff
-}
-
-grub-update() {
-    sudo grub-mkconfig -o /boot/grub/grub.cfg
-}
-
-cat() {
-    bat -p $1
-}
-
-##############################################################
-#  					VARIABLES                                #
-##############################################################
-
-export EDITOR="micro"
-export DOCKER_BUILDKIT=1
-export STARSHIP_CONFIG=~/.config/starship/starship.toml
-export SIGHUP_WORKDIR="$HOME/dev/sighup"
-export FIP_WORKING_DIR="$HOME/dev/sighup/fip-dev-env/repos"
-export GOPATH="$HOME/go"
-export PATH="$PATH:$GOPATH/bin:/home/luigi/.cargo/bin:/home/luigi/.local/bin"
-export MANPAGER="sh -c 'col -bx | bat -l man -p'"
-
-##############################################################
-#  					ALIASES                                  #
-##############################################################
-
-#--------------------#
-# 	General Alias 	 #
-#--------------------#
-alias m=micro
-alias k=kubectl
-alias work="cd $SIGHUP_WORKDIR"
-alias sfip="cd $FIP_WORKING_DIR"
-alias r=ranger
-alias ssh="kitty +kitten ssh"
-alias dots=chezmoi
-# alias ls='ls --color=auto'
-# alias ll='ls -lav --ignore=..'   # show long listing of all except ".."
-# alias l='ls -lav --ignore=.?*'   # show long listing but no hidden dotfiles except "."
-alias ls='lsd'
-alias l='ls -l'
-alias la='ls -a'
-alias lla='ls -la'
-alias lt='ls --tree'
-
-#-----------------------#
-# 	Git Alias Commands  #
-#-----------------------#
-alias gc="git clone"
-alias gs="git status"
-alias ga="git add"
-alias gcm="git commit -m"
-alias gca="git commit -am"
-alias gb="git branch"
-alias gck="git checkout"
-alias gst="git stash"
-alias gpr="git pull --rebase"
-alias gl="git log --oneline --decorate --graph"
-alias glog="git log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --"
-alias glga="git log --graph --oneline --all --decorate"
-alias gb="git branch"
-alias gs="git show"
-alias gd="diff --color --color-words --abbrev"
-alias gps="git push"
-alias gpl="git pull"
-alias gi="ign = ls-files -o -i --exclude-standard"
+# More History!!!
+HISTFILE=~/.zsh_history
+HISTSIZE=10000
+SAVEHIST=10000
+setopt appendhistory
 
 ##############################################################
 #  					TOOLS                                    #
@@ -99,11 +45,13 @@ alias gi="ign = ls-files -o -i --exclude-standard"
 eval "$(asdf exec direnv hook zsh)"
 
 #-----------------------#
-# 	Kitty SSH           #
+# 	Starship Setup      #
 #-----------------------#
+eval "$(starship init zsh)"
 
-if test -n "$KITTY_INSTALLATION_DIR" -a -e "$KITTY_INSTALLATION_DIR/shell-integration/bash/kitty.bash"; then source "$KITTY_INSTALLATION_DIR/shell-integration/bash/kitty.bash"; fi
-
-# BEGIN_KITTY_SHELL_INTEGRATION
-if test -n "$KITTY_INSTALLATION_DIR" -a -e "$KITTY_INSTALLATION_DIR/shell-integration/bash/kitty.bash"; then source "$KITTY_INSTALLATION_DIR/shell-integration/bash/kitty.bash"; fi
-# END_KITTY_SHELL_INTEGRATION
+#-------------------------#
+# Kitty Shell Integration #
+#-------------------------#
+if [ "$TERM" = "xterm-kitty" ]; then
+    if test -n "$KITTY_INSTALLATION_DIR" -a -e "$KITTY_INSTALLATION_DIR/shell-integration/zsh/kitty.zsh"; then source "$KITTY_INSTALLATION_DIR/shell-integration/zsh/kitty.zsh"; fi
+fi
