@@ -76,6 +76,7 @@ cpio
 cpupower
 cronie
 cryptsetup
+cuda
 cups
 cups-filters
 cups-pdf
@@ -150,6 +151,7 @@ flameshot-git
 flex
 flyctl-bin
 fmt
+foliate
 foomatic-db
 foomatic-db-engine
 foomatic-db-gutenprint-ppds
@@ -540,7 +542,6 @@ noto-fonts
 nss-mdns
 ntfs-3g
 ntp
-nvidia-dkms
 nvidia-installer-db
 nvidia-installer-dkms
 nvidia-settings
