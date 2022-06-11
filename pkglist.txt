@@ -864,9 +864,11 @@ source-highlight
 spdlog
 spirv-tools
 splix
+spotify-adblock-git
 squashfs-tools
 sshfs
 starship
+steam
 sudo
 surge
 sushi
