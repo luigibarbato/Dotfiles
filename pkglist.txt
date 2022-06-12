@@ -948,6 +948,7 @@ vino
 virtualbox
 virtualbox-host-dkms
 visual-studio-code-bin
+vlc
 vpnc
 vulkan-headers
 vulkan-intel
@@ -955,6 +956,7 @@ vulkan-tools
 waybar
 wayland-protocols
 wayland-utils
+webtorrent-desktop-bin
 welcome
 wf-recorder
 wget
