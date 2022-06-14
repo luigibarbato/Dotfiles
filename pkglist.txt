@@ -76,6 +76,7 @@ cpio
 cpupower
 cronie
 cryptsetup
+ctop
 cuda
 cups
 cups-filters
@@ -267,6 +268,7 @@ hdparm
 helm-synth
 hplip
 hsetroot
+htop
 http-parser
 hunspell
 hwdetect
