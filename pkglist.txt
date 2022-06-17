@@ -549,7 +549,6 @@ nvidia-installer-dkms
 nvidia-settings
 nvidia-utils
 ocrfeeder
-okteto
 okular
 oniguruma
 open-isns
