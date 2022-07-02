@@ -1,6 +1,6 @@
 encryption = "gpg"
 [gpg]
-    recipient = "0F451D43A5190DF8"
+    recipient = "work@luigibarbato.digital"
 [git]
     autoPush = true
     
