@@ -127,6 +127,7 @@ eos-update-notifier
 epiphany
 espanso-wayland-git
 espeak-ng
+etcher-bin
 ethtool
 evince
 evolution
